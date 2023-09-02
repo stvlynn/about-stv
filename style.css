@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "overpass-regular";
+    src: url("font/overpass-regular.otf") format("opentype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "overpass-bold";
+    src: url("font/overpass-bold.otf") format("opentype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "overpass-bold-italic";
+    src: url("font/overpass-bold-italic.otf") format("opentype");
+    font-display: swap;
+}
+
+body {
+    font-family: "overpass-regular";
+    background: url(img/background.jpg) center center no-repeat;
+}
+
+em {
+    font-family: "overpass-bold-italic";
+}
+
+hr {
+    width: 80%;
+}
+
+.title {
+    font-family: "overpass-bold";
+    margin: 0.2rem 0;
+}
+
+.blog-button {
+    border: 1px solid gray;
+    border-radius: 1rem;
+    padding: 0.2rem 0.5rem;
+    width: 40%;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+}
+
+.blog-button img {
+    width: 2rem;
+    filter: invert(100%);
+}
+
+main {
+    text-align: center;
+    background-color: rgba(252, 250, 242, 0.9);
+    padding: 56px 0;
+    margin:96px auto;
+    width: 512px;
+    border-radius: 25px;
+}
+
+/* 网页头 */
+.avatar {
+    width: 128px;
+    border-radius: 50%;
+}
+
+/* 介绍 */
+.inroduction ul {
+    padding: 0;
+}
+
+.inroduction li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+/* 社交链接 */
+.social-links ul {
+    padding: 0;
+}
+
+.social-links li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.social-icons {
+    width: 48px;
+}
