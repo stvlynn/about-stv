@@ -49,9 +49,10 @@ hr {
     filter: invert(100%);
 }
 
+/*卡片*/
 main {
     text-align: center;
-    background-color: rgba(252, 250, 242, 0.9);
+    background-color: rgba(252, 250, 242, 0.75); /*红绿蓝 透明度*/
     padding: 56px 0;
     margin:96px auto;
     width: 512px;
