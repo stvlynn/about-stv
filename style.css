@@ -56,7 +56,7 @@ main {
     padding: 56px 0;
     margin:96px auto;
     width: 512px;
-    border-radius: 25px;
+    border-radius: 48px; /*卡片弧度*/
 }
 
 /* 网页头 */
