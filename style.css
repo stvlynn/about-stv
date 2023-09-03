@@ -29,16 +29,46 @@ hr {
     width: 80%;
 }
 
-.title {
+h1 {
     font-family: "overpass-bold";
-    margin: 0.2rem 0;
+    margin-bottom: 0.2rem;
 }
 
+/*卡片*/
+main {
+    text-align: center;
+    background-color: rgba(252, 250, 242, 0.75); /*红绿蓝 透明度*/
+    padding: 2.5rem 0;
+    margin: 2rem auto;
+    width: 550px;
+    border-radius: 2.5rem; /*卡片弧度*/
+}
+
+/* 网页头 */
+.avatar {
+    width: 8rem;
+    border-radius: 50%;
+}
+
+/* 介绍 */
+.inroduction ul {
+    padding: 0;
+    margin-top: 0;
+}
+
+.inroduction li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+/*博客按钮*/
 .blog-button {
-    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 1rem;
     padding: 0.2rem 0.5rem;
-    width: 40%;
+    width: 35%;
     margin: 0 auto;
     color: white;
     background-color: black;
@@ -49,35 +79,10 @@ hr {
     filter: invert(100%);
 }
 
-/*卡片*/
-main {
-    text-align: center;
-    background-color: rgba(252, 250, 242, 0.75); /*红绿蓝 透明度*/
-    padding: 56px 0;
-    margin:96px auto;
-    width: 512px;
-    border-radius: 48px; /*卡片弧度*/
-}
-
-/* 网页头 */
-.avatar {
-    width: 128px;
-    border-radius: 50%;
-}
-
-/* 介绍 */
-.inroduction ul {
-    padding: 0;
-}
-
-.inroduction li {
-    display: inline-block;
-    list-style-type: none;
-}
-
 /* 社交链接 */
 .social-links ul {
     padding: 0;
+    margin-top: 0;
 }
 
 .social-links li {
@@ -86,5 +91,16 @@ main {
 }
 
 .social-icons {
-    width: 48px;
+    width: 3rem;
+}
+
+@media screen and (max-width:680px) {
+    body {
+        background: url(img/background-mobile.jpeg) center center no-repeat;
+    }
+
+    main {
+        width: 100%;
+        margin: 0;
+    }
 }
