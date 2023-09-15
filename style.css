@@ -18,7 +18,7 @@
 
 body {
     font-family: "overpass-regular";
-    background: url(img/background.jpg) center center no-repeat;
+    background: url(img/background.webp) center center no-repeat;
 }
 
 em {
@@ -93,10 +93,10 @@ main {
 .social-icons {
     width: 3rem;
 }
-
+ß
 @media screen and (max-width:680px) {
     body {
-        background: url(img/background-mobile.jpeg) center center no-repeat;
+        background: url(img/background-mobile.webp) center center no-repeat;
     }
 
     main {
