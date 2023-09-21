@@ -50,6 +50,10 @@ main {
     border-radius: 50%;
 }
 
+.signature {
+    width: 16rem;
+}
+
 /* 介绍 */
 .inroduction ul {
     padding: 0;
@@ -93,7 +97,7 @@ main {
 .social-icons {
     width: 3rem;
 }
-ß
+
 @media screen and (max-width:680px) {
     body {
         background: url(img/background-mobile.webp) center center no-repeat;
